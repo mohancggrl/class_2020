@@ -1,0 +1,37 @@
+sh <user_name>@<ip>
+pwd --- present Working dir
+ls - list of the files / dir
+cd - change directory
+cd .. ---> One directory stage back
+ifconfig ---> to check the ip address
+
+[mohan    @   localhost      Desktop]   $
+ <user>        <host_name>    <path>    
+ 
+ 
+ $ -- normal user
+ # -- admin / root user
+ ~ --- user home path
+ 
+mkdir <directory name> --> Cretae dir
+touch <file_name>  ---> Create empty file
+
+
+ls
+ls        -ltra
+command    arg
+
+l --> long list
+t --> time stamp
+r --> reverse
+a --> hidden files / dir
+
+
+d          rwx   r-x   r-x.    4   mohan   mohan 33     Oct 18 18:46 Desktop
+dir        user  group other       owner   group  size    time        name dir
+
+-          rw-rw-r--. 1 mohan mohan  0 Oct 18 19:13 mohan
+file
+
+l          rwxrwxrwx.   1 root root    9 Oct 17 19:20 lib64 -> usr/lib64
+symblink
