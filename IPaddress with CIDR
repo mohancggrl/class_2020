@@ -1,0 +1,153 @@
+IP Adress:
+
+An Internet Protocol address is a numerical label such as 192.0.2.1 that is connected to a computer network that uses the Internet Protocol for communication. An IP address serves two main functions: network interface identification and location addressing.
+
+IPv4
+
+0.0.0.0
+
+255.255.255.255
+
+32 bit
+
+IPv6
+
+FE80:CD00:0000:0CDE:1257:0000:211E:729C
+
+128 bit
+
+IP Header Classes:
+Class		    Address 	Application
+IP Class A	   1 to 126	    Used for large number of hosts.
+IP Class B	   128 to 191	Used for medium size network.
+IP Class C	   192 to 223	Used for local area network.
+IP Class D	   224 to 239	Reserve for multi-tasking.
+IP Class E	   240 to 254	This class is reserved for research and Development Purposes.
+
+public IP
+
+Private ip
+Class A: 10.0.0.0 to 10.255.255.255
+Class B: 172.16.0.0 to 172.31.255.255
+Class C: 192.168.0.0 to 192.168.255.255
+
+Public IP 
+Rest all public IP
+
+
+CIDR
+Classless Inter-Domain Routing (CIDR) is a range of IP addresses a network uses. A CIDR address looks like a normal IP address, except that it ends with a slash followed by a number. The number after the slash represents the number of addresses in the range.
+
+cidr caluclation
+256
+
+2 256
+2 128
+2  64
+2 32
+2 16
+2 8
+2 4
+  2
+
+11111111.11111111.11111111.0000000
+32 - 8 = 24
+
+10.0.0.0/24
+10.0.0.0
+10.0.0.1
+10.0.0.2
+..
+..
+..
+10.0.0.255
+
+
+1000
+1024
+
+2 1024
+2  512
+2 256
+2 128
+2  64
+2 32
+2 16
+2 8
+2 4
+  2
+  
+11111111.11111111.11111100.0000000
+                        2*2.2*2*2*2*2*2*2*2
+						
+32-10 = 22
+						
+10.0.0.0/22
+10.0.0.0
+10.0.0.1
+..
+...
+10.0.0.255    256 
+
+10.0.1.0
+10.0.1.1
+...
+...
+10.0.1.255   256
+
+10.0.2.0
+10.0.2.1
+...
+..
+10.0.2.255   256
+
+
+10.0.3.0
+10.0.3.1
+...
+10.0.3.255  256
+
+
+2048
+======
+2 2048
+2 1024
+2  512
+2 256
+2 128
+2  64
+2 32
+2 16
+2 8
+2 4
+  2
+
+
+32 -11 = 21
+11111111.11111111.11111000.0000000
+
+10.0.0.0/21
+10.0.0.0
+
+10.0.7.255
+
+32-9 = 23
+
+11111111.11111111.11111110.0000000
+10.0.0.0/23
+10.0.0.0
+10.0.1.255
+
+
+10.0.2.0/23
+10.0.2.0
+10.0.3.255
+
+
+10.0.4.0/23
+10.0.4.0
+10.0.5.255
+
+10.0.6.0/23
+10.0.6.0
+10.0.7.255
