@@ -1,0 +1,45 @@
+rm -rf *
+
+cd -    previos directory
+
+
+ctrl +l  ----> clear the screen
+clear    ----> clear the screen
+
+cat > <file_name> ---> To crate / ovaride the content file_name
+cat >> <file_name>  --> append the content
+
+cat <file_name> ---> to view the contant of the file_name
+more
+less
+view
+vi
+
+
+rm <file_name>
+
+rm -rf <file / dir>
+
+r --> recursively 
+f --> forcefully
+
+copy
+=====
+cp <souce> <destination>
+
+/tmp/mohan.txt
+
+
+/opt/suresh
+
+cp -r <source> <destination>
+
+/tmp/sreeja
+
+/opt/suresh/
+
+
+move / Rename
+mv <source of the file / dir> <dest path>
+
+mv /tmp/sreeja /opt/mhn
