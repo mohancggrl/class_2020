@@ -1,0 +1,11 @@
+yum ---> Yellowdog Updater, Modified
+
+yu update -y
+
+yum search <package_name>
+
+yum install <package_name>
+
+systemctl status <service_name>
+systemctl stop <service_name>
+systemctl start <service_name>
