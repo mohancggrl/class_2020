@@ -1,0 +1,58 @@
+User types
+===============
+1. Root user
+2. Normal user 
+3. service user
+
+
+To check the users
+cat /etc/passwd
+
+useradd <user_name>  ---> To create the user
+userdel <user_name>  ----> To delete the user
+
+
+su - <user_name>    ----> swith the user
+
+make user as a sudoier
+visudo or vi /etc/sudoers
+
+## Same thing without a password
+# %wheel        ALL=(ALL)       NOPASSWD: ALL
+<user_name>     ALL=(ALL)       NOPASSWD: ALL
+
+
+netstat -anlp | grep "70697"
+netstat -anlp ---> To show the listining ports and running process information
+grep "<key_word"> ---> To find and filter the keyword
+
+-rw- rw- rw-. 1 mohan mohan 12 Oct 26 18:56 mahii.txt
+
+-r-x r-- --x
+
+-r-xr----x. 1 mohan mohan 12 Oct 26 18:56 mahii.txt
+drwxrwxr-x. 2 mohan mohan  6 Oct 26 19:00 mohan
+
+
+
+
+owner / user
+group 
+others
+
+r  ---> 4
+w  ---> 2
+x  ---> 1
+        7
+Normal Permission
+file		
+chmod <permissions> <file_name>
+dir
+chmod -R <permissions> <file_name>
+
+
+owner permission
+file
+chown <user>:<group> <file_name>
+dir
+chown -R <user>:<group> <file_name>
